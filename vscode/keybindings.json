@@ -50,11 +50,11 @@
     "key": "r",
     "when": "filesExplorerFocus && !inputFocus"
   },
-  // {
-  //  "key": "shift+n",
-  //  "command": "explorer.newFolder",
-  //  "when": "explorerViewletFocus"
-  // },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
   // {
   //  "key": "shift+n",
   //  "command": "workbench.action.newWindow",

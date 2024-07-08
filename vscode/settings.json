@@ -45,7 +45,7 @@
       "commands": ["editor.action.quickFix"]
     },
     { "before": ["leader", "f"], "commands": ["editor.action.formatDocument"] },
-    { "before": ["leader", "p"], "commands": ["workbench.action.quickOpen"] },
+    { "before": ["ctrl+p"], "commands": ["workbench.action.quickOpen"] },
     {
       "before": ["g", "h"],
       "commands": ["editor.action.showDefinitionPreviewHover"]
@@ -61,5 +61,6 @@
     // toggle comment selection
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
   ],
-  "workbench.colorTheme": "Dracula"
+  "workbench.colorTheme": "Dracula",
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
   }

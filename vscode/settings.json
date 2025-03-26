@@ -61,6 +61,18 @@
     // toggle comment selection
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
   ],
-  "workbench.colorTheme": "Dracula",
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
-  }
+  "workbench.colorTheme": "Dracula Theme Soft",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.rulers": [
+    80
+  ],
+  "files.associations": {
+    "*.tpl": "html"
+  },
+  "github.copilot.editor.enableAutoCompletions": false,
+  "window.zoomLevel": 2,
+  "workbench.settings.applyToAllProfiles": [
+    "window.zoomLevel"
+  ],
+  "database-client.autoSync": true
+}
